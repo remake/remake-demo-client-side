@@ -9,10 +9,16 @@ Remake.demoInit = function (options) {
 
     Note:
     
-    The following code is makes Remake run client-side.
+    The following code makes Remake run client-side.
     
     This is possible because Remake's client-side code is decoupled from
     its backend code.
+
+    To run this code, you need:
+    - handlebars.min.js (https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js)
+    - remake.min.js (https://github.com/remake/remake-framework/blob/master/_remake/dist/remake/js/remake.min.js)
+    - Sortable.min.js (https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js)
+    - crostini.umd.js (https://cdn.jsdelivr.net/npm/crostini@latest/dist/crostini.umd.js)
     
     Remake usually:
     - Renders all templates server-side (for performance and SEO)
