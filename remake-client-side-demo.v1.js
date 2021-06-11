@@ -49,6 +49,8 @@ Remake.demoInit = function (options) {
     - Load data from the current user's account
     - Check if the current user can edit the page and only display Remake's
       editable areas then
+    - Render new items to the page based on the names of components/partials 
+      (like Remake's `new:` attribute does)
     - (optional) Handle routing if you want your app to have multiple pages
     - (optional) Upload files to the current user's account
     - (optional) Have the ability to add unique ids to every object in your 
